@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: 'AUTO BEJDA — Specialisté na Porsche',
   description: 'Servis, opravy a renovace klasických i moderních vozů Porsche. Rodinná firma AUTO BEJDA v Jarošově nad Nežárkou. Náhradní díly a motorsport.',
   robots: { index: true, follow: true },
+  alternates: { canonical: '/', languages: { cs: '/', en: '/en', de: '/de' } },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
